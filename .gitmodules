@@ -1,0 +1,3 @@
+[submodule "lerna-sub-rep"]
+	path = lerna-sub-rep
+	url = https://github.com/maksim-kashytski/lerna-sub-rep.git
