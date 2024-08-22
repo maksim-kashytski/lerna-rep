@@ -28,30 +28,19 @@ Workflow:
 
 ## Running Demo
 
-In order to run the demo I highly recommend installing lerna globally via
+In order to run the demo:
 
 ```bash
-npm i -g lerna
-```
-
-Then,
-
-```bash
-lerna bootstrap
-```
-
-Run the command above at the root of your project. This command will make sure you have dependencies you need in order to run this project.
-
-Finally,
-
-```bash
-npm run start
+git clone 'url'
+git submodule update --init --recursive
+npm i
+npm start
 ```
 
 Lerna will start all your projects parallelly and open your browser.
 
 - http://localhost:3000/ (container)
-- http://localhost:3001/ (lerna-sub-rep) https://github.com/maksim-kashytski/lerna-sub-rep
+- http://localhost:3001/ (app1 <= lerna-sub-rep) https://github.com/maksim-kashytski/lerna-sub-rep
 - http://localhost:3002/ (app2)
 
 ## Screenshots
