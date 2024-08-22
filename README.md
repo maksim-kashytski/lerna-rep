@@ -51,7 +51,7 @@ npm run start
 Lerna will start all your projects parallelly and open your browser.
 
 - http://localhost:3000/ (container)
-- http://localhost:3001/ (app1)
+- http://localhost:3001/ (lerna-sub-rep) https://github.com/maksim-kashytski/lerna-sub-rep
 - http://localhost:3002/ (app2)
 
 ## Screenshots
