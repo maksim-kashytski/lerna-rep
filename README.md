@@ -31,7 +31,8 @@ Workflow:
 In order to run the demo:
 
 ```bash
-git clone 'url'
+git clone https://github.com/maksim-kashytski/lerna-rep.git
+cd lerna-rep
 git submodule update --init --recursive
 npm i
 npm start
